@@ -147,7 +147,10 @@ h1 {
 }
 
 
+
 /* Flower and plants lover styles  */
+
+
 
 .f-plants-lover {
     display: flex;
@@ -192,7 +195,11 @@ h1 {
 
 }
 
-/* Latest deals section styles */
+
+
+        /* Latest deals section styles */
+
+
 
 .latest-deals {
     text-align: center;
@@ -276,8 +283,64 @@ font-weight: 600;
 }
 
 
+        /* Join the colorful bunch section styles */
 
-/* Responsive design */
+
+.join-us{
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url('assets/news-letter-bg.png');
+background-repeat: no-repeat;
+height: 533px;
+color: white;
+flex-direction: column;
+gap: 23px;
+}
+
+.join-us input{
+    width: 640px;
+    height: 50px;
+    border: none;
+
+}
+
+.join-us input::placeholder{
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+
+.join-us button{
+    padding: 16px 53px;
+    border: none;
+    font-size: 15px;
+    margin-left: 0px;
+    font-weight: 600;
+    font-family: inter;
+    background-color: #E95A08;
+    color: white;
+
+}
+
+.join-us-flex{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+        /* Responsive design */
+
+
 
 @media screen and (max-width:576px) {
 
@@ -398,6 +461,16 @@ font-weight: 600;
     font-family: noto serif;
 }
 
+
+.join-us input{
+    width: 220px;
+    border: none;
+
+}
+
+.join-us button{
+    padding: 16px 23px;
+}
 
 
 }
