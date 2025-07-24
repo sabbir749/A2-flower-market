@@ -192,7 +192,7 @@ h1 {
     color: #8987A1;
     margin: 20px 15px;
     font-size: 22px;
-
+    display: flex;
 }
 
 
