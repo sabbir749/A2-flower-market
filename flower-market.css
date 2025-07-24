@@ -197,7 +197,7 @@ h1 {
 
 
 
-        /* Latest deals section styles */
+/* Latest deals section styles */
 
 
 
@@ -258,60 +258,58 @@ h1 {
     flex-direction: column;
 }
 
-.deals-item-1 h3{
+.deals-item-1 h3 {
     font-family: noto serif;
 }
 
 .deals-item-1 a,
 .deals-item-2 a,
-.deals-item-3 a
-{
+.deals-item-3 a {
     color: white;
     margin-top: 17px;
     font-family: inter;
 }
 
-.deals-item-3 a
-{
-font-size: 28px;
-font-weight: 600;
+.deals-item-3 a {
+    font-size: 28px;
+    font-weight: 600;
 }
 
-.deals-item-3 h3{
+.deals-item-3 h3 {
     font-size: 40px;
     font-family: noto serif;
 }
 
 
-        /* Join the colorful bunch section styles */
+/* Join the colorful bunch section styles */
 
 
-.join-us{
-display: flex;
-align-items: center;
-justify-content: center;
-background-image: url('assets/news-letter-bg.png');
-background-repeat: no-repeat;
-height: 533px;
-color: white;
-flex-direction: column;
-gap: 23px;
+.join-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    height: 533px;
+    color: white;
+    flex-direction: column;
+    gap: 23px;
 }
 
-.join-us input{
+.join-us input {
     width: 640px;
     height: 50px;
     border: none;
 
 }
 
-.join-us input::placeholder{
+.join-us input::placeholder {
     padding-left: 20px;
     color: rgba(0, 0, 0, 0.5);
     font-size: 16px;
 }
 
-.join-us button{
+.join-us button {
     padding: 16px 53px;
     border: none;
     font-size: 15px;
@@ -323,22 +321,52 @@ gap: 23px;
 
 }
 
-.join-us-flex{
+.join-us-flex {
     display: flex;
     align-items: center;
 }
 
 
 
+/* Footer styles */
+footer{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    display: flex;
+    height: 250px;
+    gap: 110px;
+}
+
+
+.footer-item-1 p{
+    max-width: 360px;
+    margin-top: 15px;
+}
+
+.footer-item-2 li,
+.footer-item-3 li
+{
+color: #6B7280;
+list-style: none;
+margin-bottom: 30px;
+}
+
+.footer-item-4{
+   display: flex;
+   align-items: center;
+   gap: 24px;
+   margin-top: -220px;
+}
 
 
 
 
 
-
-
-
-        /* Responsive design */
+/* Responsive design */
 
 
 
@@ -439,38 +467,66 @@ gap: 23px;
         flex-direction: column;
     }
 
+    .latest-deals p {
+        padding: 0 31px;
+        margin-bottom: 50px;
+    }
 
-.deals-item-3 {
-   width: 77%;
-   height: 300px;
-}
+    .deals-item-3 {
+        width: 77%;
+        height: 300px;
+    }
 
-.deals-items-container{
-    height: 623px;
+    .deals-items-container {
+        height: 623px;
 
-}
+    }
 
-.deals-item-3 a
-{
-font-size: 16px;
-font-weight: 600;
-}
+    .deals-item-3 a {
+        font-size: 16px;
+        font-weight: 600;
+    }
 
-.deals-item-3 h3{
-    font-size: 18px;
-    font-family: noto serif;
-}
+    .deals-item-3 h3 {
+        font-size: 18px;
+        font-family: noto serif;
+    }
 
 
-.join-us input{
-    width: 220px;
-    border: none;
+    .join-us input {
+        width: 220px;
+        border: none;
 
-}
+    }
 
-.join-us button{
-    padding: 16px 23px;
-}
+    .join-us button {
+        padding: 16px 23px;
+    }
+
+    .join-us {
+        height: 390px;
+        background-size: cover;
+        background-position: center;
+
+
+    }
+
+    footer{
+        padding-bottom: 30px;
+
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-item-4{
+        margin-top: 0;
+        padding-bottom: 50px;
+    }
+
+
 
 
 }
